@@ -1,0 +1,14 @@
+<!-- manifest.xml -->
+<OfficeApp xmlns="http://schemas.microsoft.com/office/appforoffice/1.1" ...>
+<Version>1.0</Version>
+<ProviderName>Your Company</ProviderName>
+<DefaultLocale>en-US</DefaultLocale>
+<!-- Add more properties as needed -->
+<Hosts>
+<Host Name="Document"/>
+</Hosts>
+<DefaultSettings>
+<SourceLocation resid="Taskpane.Url"/>
+</DefaultSettings>
+<Permissions>ReadWriteDocument</Permissions>
+</OfficeApp>
